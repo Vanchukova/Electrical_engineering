@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?application progid="SMath Studio Desktop" version="0.99.7822.147"?>
+<worksheet xmlns="http://smath.info/schemas/worksheet/1.0">
+  <settings ppi="120">
+    <identity>
+      <id>b61a0955-35f0-459f-8ef1-0b7cf104b379</id>
+      <revision>5</revision>
+    </identity>
+    <calculation>
+      <precision>4</precision>
+      <exponentialThreshold>5</exponentialThreshold>
+      <trailingZeros>false</trailingZeros>
+      <significantDigitsMode>false</significantDigitsMode>
+      <roundingMode>0</roundingMode>
+      <fractions>decimal</fractions>
+    </calculation>
+    <pageModel active="false" viewMode="2" printGrid="false" printAreas="true" simpleEqualsOnly="false" printBackgroundImages="true">
+      <paper id="9" orientation="Portrait" width="827" height="1169" />
+      <margins left="39" right="39" top="49" bottom="49" />
+      <header alignment="Center" color="#a9a9a9">&amp;[DATE] &amp;[TIME] - &amp;[FILENAME]</header>
+      <footer alignment="Center" color="#a9a9a9">&amp;[PAGENUM] / &amp;[COUNT]</footer>
+      <backgrounds />
+    </pageModel>
+    <dependencies>
+      <assembly name="SMath Studio Desktop" version="0.99.7822.147" guid="a37cba83-b69c-4c71-9992-55ff666763bd" />
+      <assembly name="MathRegion" version="1.11.7822.147" guid="02f1ab51-215b-466e-a74d-5d8b1cf85e8d" />
+      <assembly name="TextRegion" version="1.11.7822.147" guid="485d28c5-349a-48b6-93be-12a35a1c1e39" />
+    </dependencies>
+  </settings>
+  <regions type="content">
+    <region left="216" top="9" width="309" height="71" color="#000000" fontSize="14">
+      <text lang="rus" fontFamily="Arial" fontSize="10">
+        <content>
+          <p style="font-size: 14px; font-weight: bold;">Пример расчета для опыта №1.<br /><br /> </p>
+        </content>
+      </text>
+    </region>
+    <region left="36" top="36" width="97" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">j</e>
+          <e type="operand">1</e>
+          <e type="operator" args="1">-</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">i</e>
+        </result>
+      </math>
+    </region>
+    <region left="459" top="45" width="62" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ra</e>
+          <e type="operand">45</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="567" top="45" width="86" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">La</e>
+          <e type="operand">0.281</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="36" top="54" width="353" height="28" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ea</e>
+          <e type="operand">164</e>
+          <e type="operand">j</e>
+          <e type="operand">120</e>
+          <e type="operator" args="1">-</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">133.5257</e>
+          <e type="operand">95.2202</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="459" top="63" width="62" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Rb</e>
+          <e type="operand">45</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="567" top="63" width="86" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Lb</e>
+          <e type="operand">0.281</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="36" top="72" width="185" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Eb</e>
+          <e type="operand">164</e>
+          <e type="operand">j</e>
+          <e type="operand">0</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">164</e>
+        </result>
+      </math>
+    </region>
+    <region left="459" top="81" width="62" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Rc</e>
+          <e type="operand">45</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="567" top="81" width="86" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Lc</e>
+          <e type="operand">0.281</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="36" top="90" width="342" height="28" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ec</e>
+          <e type="operand">164</e>
+          <e type="operand">j</e>
+          <e type="operand">120</e>
+          <e type="bracket">(</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">133.5257</e>
+          <e type="operand">95.2202</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+        </result>
+      </math>
+    </region>
+    <region left="36" top="117" width="54" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">f</e>
+          <e type="operand">60</e>
+          <e type="operator" args="2">:</e>
+        </input>
+      </math>
+    </region>
+    <region left="36" top="135" width="161" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ω</e>
+          <e type="operand">2</e>
+          <e type="operand">π</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">f</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">376.9911</e>
+        </result>
+      </math>
+    </region>
+    <region left="36" top="171" width="277" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Uab</e>
+          <e type="operand">Ea</e>
+          <e type="operand">Eb</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">30.4743</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">95.2202</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="36" top="189" width="264" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ubc</e>
+          <e type="operand">Eb</e>
+          <e type="operand">Ec</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">30.4743</e>
+          <e type="operand">95.2202</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="36" top="207" width="266" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Uca</e>
+          <e type="operand">Eb</e>
+          <e type="operand">Ea</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">30.4743</e>
+          <e type="operand">95.2202</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+        </result>
+      </math>
+    </region>
+    <region left="36" top="234" width="255" height="39" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Za</e>
+          <e type="operand">Ra</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">ω</e>
+          <e type="operand">La</e>
+          <e type="operator" args="2">*</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="bracket">(</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">115.0961</e>
+        </result>
+      </math>
+    </region>
+    <region left="396" top="234" width="206" height="43" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">φa</e>
+          <e type="operand">ω</e>
+          <e type="operand">La</e>
+          <e type="operand">Ra</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">atan</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.1691</e>
+        </result>
+      </math>
+    </region>
+    <region left="36" top="270" width="255" height="39" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Zb</e>
+          <e type="operand">Rb</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">ω</e>
+          <e type="operand">Lb</e>
+          <e type="operator" args="2">*</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="bracket">(</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">115.0961</e>
+        </result>
+      </math>
+    </region>
+    <region left="396" top="279" width="206" height="43" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">φb</e>
+          <e type="operand">ω</e>
+          <e type="operand">Lb</e>
+          <e type="operand">Rb</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">atan</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.1691</e>
+        </result>
+      </math>
+    </region>
+    <region left="36" top="306" width="255" height="39" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Zc</e>
+          <e type="operand">Rc</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operand">ω</e>
+          <e type="operand">Lc</e>
+          <e type="operator" args="2">*</e>
+          <e type="bracket">(</e>
+          <e type="operand">2</e>
+          <e type="operator" args="2">^</e>
+          <e type="operator" args="2">+</e>
+          <e type="bracket">(</e>
+          <e type="function" args="1">sqrt</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">115.0961</e>
+        </result>
+      </math>
+    </region>
+    <region left="396" top="315" width="206" height="43" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">φc</e>
+          <e type="operand">ω</e>
+          <e type="operand">Lc</e>
+          <e type="operand">Rc</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">atan</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.1691</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="360" width="132" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ya</e>
+          <e type="operand">1</e>
+          <e type="operand">Za</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0087</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="396" width="132" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Yb</e>
+          <e type="operand">1</e>
+          <e type="operand">Zb</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0087</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="432" width="132" height="41" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Yc</e>
+          <e type="operand">1</e>
+          <e type="operand">Zc</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0087</e>
+        </result>
+      </math>
+    </region>
+    <region left="45" top="477" width="286" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">ya</e>
+          <e type="operand">Ya</e>
+          <e type="operand">j</e>
+          <e type="operand">φa</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0034</e>
+          <e type="operand">0.008</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+        </result>
+      </math>
+    </region>
+    <region left="396" top="477" width="116" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Uab</e>
+          <e type="function" args="1">abs</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">99.9779</e>
+        </result>
+      </math>
+    </region>
+    <region left="45" top="513" width="286" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">yb</e>
+          <e type="operand">Yb</e>
+          <e type="operand">j</e>
+          <e type="operand">φb</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0034</e>
+          <e type="operand">0.008</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+        </result>
+      </math>
+    </region>
+    <region left="396" top="513" width="116" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ubc</e>
+          <e type="function" args="1">abs</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">99.9779</e>
+        </result>
+      </math>
+    </region>
+    <region left="396" top="540" width="116" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Uca</e>
+          <e type="function" args="1">abs</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">99.9779</e>
+        </result>
+      </math>
+    </region>
+    <region left="45" top="549" width="286" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">yc</e>
+          <e type="operand">Yc</e>
+          <e type="operand">j</e>
+          <e type="operand">φc</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">exp</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.0034</e>
+          <e type="operand">0.008</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+        </result>
+      </math>
+    </region>
+    <region left="45" top="594" width="250" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Iab</e>
+          <e type="operand">Uab</e>
+          <e type="operand">ya</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.6579</e>
+          <e type="operand">0.5672</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="45" top="630" width="242" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ibc</e>
+          <e type="operand">Ubc</e>
+          <e type="operand">yb</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.865</e>
+          <e type="operand">0.0798</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="396" top="630" width="264" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ica</e>
+          <e type="operand">Uca</e>
+          <e type="operand">yc</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.6579</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">0.5672</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="666" width="108" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Iab</e>
+          <e type="function" args="1">abs</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.8686</e>
+        </result>
+      </math>
+    </region>
+    <region left="270" top="666" width="108" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ica</e>
+          <e type="function" args="1">abs</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.8686</e>
+        </result>
+      </math>
+    </region>
+    <region left="423" top="666" width="108" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ibc</e>
+          <e type="function" args="1">abs</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.8686</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="711" width="256" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ia</e>
+          <e type="operand">Iab</e>
+          <e type="operand">Ica</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.3159</e>
+          <e type="operand">1.1343</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="729" width="250" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ib</e>
+          <e type="operand">Ibc</e>
+          <e type="operand">Iab</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">0.207</e>
+          <e type="operand">0.4874</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="747" width="270" height="24" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ic</e>
+          <e type="operand">Ica</e>
+          <e type="operand">Ibc</e>
+          <e type="operator" args="2">-</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.5229</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">0.6469</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">+</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="774" width="100" height="26" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Ia</e>
+          <e type="function" args="1">abs</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">1.7373</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="792" width="415" height="45" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Pa</e>
+          <e type="operand">Ia</e>
+          <e type="operand">Uab</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">ω</e>
+          <e type="operand">La</e>
+          <e type="operand">Ra</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">atan</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">57.9077</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">35.4735</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="846" width="387" height="45" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Pb</e>
+          <e type="operand">Ib</e>
+          <e type="operand">Ubc</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">ω</e>
+          <e type="operand">Lb</e>
+          <e type="operand">Rb</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">atan</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">20.612</e>
+          <e type="operand">1.9007</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+        </result>
+      </math>
+    </region>
+    <region left="54" top="900" width="415" height="45" color="#000000" fontSize="10">
+      <math>
+        <input>
+          <e type="operand">Pc</e>
+          <e type="operand">Ic</e>
+          <e type="operand">Uca</e>
+          <e type="operator" args="2">*</e>
+          <e type="operand">ω</e>
+          <e type="operand">Lc</e>
+          <e type="operand">Rc</e>
+          <e type="operator" args="2">/</e>
+          <e type="operator" args="2">*</e>
+          <e type="function" args="1">atan</e>
+          <e type="function" args="1">cos</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">:</e>
+        </input>
+        <result action="numeric">
+          <e type="operand">42.2293</e>
+          <e type="operator" args="1">-</e>
+          <e type="operand">48.9886</e>
+          <e type="operand">i</e>
+          <e type="operator" args="2">*</e>
+          <e type="operator" args="2">-</e>
+        </result>
+      </math>
+    </region>
+  </regions>
+</worksheet>
